@@ -79,15 +79,17 @@ input
 
 footer
 {
-    padding-top: 30px;
+    padding: 30px;
     text-align: center;
     font-size: 1.3em;
 }
 
 footer img
 {
+    position: relative;;
     height: 3%;
     width: 3%;
+    top: 5px;
 }
 
 footer button
