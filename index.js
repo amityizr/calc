@@ -1,9 +1,10 @@
-let btnNumbers = document.getElementsByClassName("btn-num");
+const btnNumbers = document.getElementsByClassName("btn-num");
 
-console.log(document.getElementsByClassName("btn").length); // result=
+console.log(document.getElementsByClassName("btn-num").length); // result=
 
 for (let i = 0; i<btnNumbers.length; i++) {
     btnNumbers[i].addEventListener("click", () => {
+        console.log(i);
         console.log(this.dataset.calc);
     });
 }

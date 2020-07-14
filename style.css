@@ -76,3 +76,22 @@ input
 .body-dark {
     background-color: black;
 }
+
+footer
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+footer img
+{
+    height: 3%;
+    width: 3%;
+}
+
+footer button
+{
+    padding: 5px 15px;
+    margin-right: 15px;
+}
