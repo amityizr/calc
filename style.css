@@ -3,6 +3,7 @@ body
     height: 100vh;
     width: 100vw;
     background-color: skyblue;
+    transition: 150ms;
 }
 
 h1
@@ -35,6 +36,7 @@ h1
     border-radius: 8%;
     padding: 35px 0;
     font-weight: 600;
+    transition: 150ms ease-in;
 }
 
 .btn:hover
@@ -70,6 +72,12 @@ input
 .btn-dark
 {
     background-color: rgb(70, 70, 70);
+    color: whitesmoke;
+}
+
+.btn-dark:hover
+{
+    background-color: rgb(134, 134, 134);
     color: whitesmoke;
 }
 
